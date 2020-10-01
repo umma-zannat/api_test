@@ -1,0 +1,28 @@
+{"requestId":"umma-test-23",
+  "emailAddress":"umma.zannat@ga.gov.au",
+"extent":
+{
+  "type":"Feature",
+  "geometry":
+  {"type": "Polygon", "coordinates":
+  [[
+                [142.928064328364, -39.1185208768489],
+				[142.928064328364, -39.1185208768489],
+				[142.928064328364, -36.6909482768489],
+				[140.362933528364, -36.6909482768489],
+				[140.362933528364, -39.1185208768489]
+  ]],
+    "crs": "EPSG:4283"
+  }
+},
+"formats":
+{
+  "point":"netCDF","line":"netCDF","grid":"netCDF"
+},
+  "crs":"EPSG:4283",
+	"gridResolution": "0.0001",
+  "datasets":
+  [
+  {"datasetId": "http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/airborne_geophysics/VIC/grid/P1514/P1514-grid-k_th_u_tc_wind.nc"}
+  ]
+}
