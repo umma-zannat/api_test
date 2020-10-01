@@ -7,7 +7,7 @@ HOST = 'ec2-13-211-205-113.ap-southeast-2.compute.amazonaws.com'
 
 headers = {"Key":"Content-Type","Value":"application/x-www-form-urlencoded","Description":""}
 
-@click.command
+@click.command()
 @click.option('--origin', is_flag=True)
 @click.argument('filename', type=str)
 def main(filename):
